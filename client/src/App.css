@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+
+  width: 100%;
+  height: 800px;
+
+
+  
+  background-color: black;
+
+  /* center the title in the middle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.Title {
+  font-size: 60px;
+  color: blue;
+}
+
+
