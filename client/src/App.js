@@ -1,28 +1,37 @@
 import './App.css';
+import Main from './pages/Main.js';
+import Standings from './pages/Standings.js';
+import { useRoutes } from 'react-router-dom'
 
 function App() {
+  const routes = [
+    {
+      path: "/", 
+      element: <Main />
+
+     
+    },
+    { 
+      path: "/standings",
+    element: <Standings />
+  
+  }
+
+  
+    // {
+    //   path: "/competitions",
+    //   element: <Competition />,
+    // }
+    //  {
+    //   path: "/competitions/mls-cup-playoffs",
+    //   element: <Playoff />,
+    // }
+  ]
   return (
-    <div className="App">
-      
-      {/* Hello world
-      <h1>Master Title</h1>
-      <h2>Smaller Title</h2>
-      <h3>Even Smaller</h3>
-
-      <p>woefhoqwjfowjeoifjawoi;ejfiojewOI;FJoiwejfoijojSNLKDVnlk</p>
-      <button>Click me</button>
-
-      <a>Link to...</a> */}
-      
+    
+    useRoutes(routes)
 
 
-
-      <h1 className="Title">Break Soccer Champions League</h1>
-
-
-
-      
-    </div>
   );
 }
 
