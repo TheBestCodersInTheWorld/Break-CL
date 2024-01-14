@@ -8,13 +8,10 @@ function App() {
     {
       path: "/", 
       element: <Main />
-
-     
     },
     { 
       path: "/standings",
     element: <Standings />
-  
   }
 
   
