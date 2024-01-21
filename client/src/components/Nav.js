@@ -1,15 +1,19 @@
 import React from 'react'
 import '../styles/Components.css';
 
+import { useNavigate } from "react-router-dom"
+
 
 const Nav = () => {
+
+  const navigate = useNavigate()
+
   return (
     <div className="MainContainer">
-        <div className="NavOption">About</div>
-        <div className="NavOption">Standings</div>
-        <div className="NavOption">Rosters</div>
-        <div className="NavOption">Schedule</div>
-
+        <div className="NavOption" onClick={() => navigate('/about')}>About</div>
+        <div className="NavOption" onClick={() => navigate('/standings')}>Standings</div>
+        <div className="NavOption" onClick={() => navigate('/rosters')}>Rosters</div>
+        <div className="NavOption" onClick={() => navigate('/schedule')}>Schedule</div>
 
     </div>
   )

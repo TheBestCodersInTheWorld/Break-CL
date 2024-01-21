@@ -10,7 +10,7 @@ const Main = () => {
       <Nav />
       <div className="ImageContainer">
         <h1 className="Title">Break Soccer Champions League</h1>
-      </div>
+      3</div>
 
     </div>
     

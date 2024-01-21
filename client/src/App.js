@@ -1,6 +1,7 @@
 import './App.css';
 import Main from './pages/Main.js';
 import Standings from './pages/Standings.js';
+import About from './pages/About.js';
 import { useRoutes } from 'react-router-dom'
 
 function App() {
@@ -11,9 +12,12 @@ function App() {
     },
     { 
       path: "/standings",
-    element: <Standings />
-  }
-
+      element: <Standings />
+    },
+    { 
+      path: "/about",
+      element: <About />
+    }
   
     // {
     //   path: "/competitions",

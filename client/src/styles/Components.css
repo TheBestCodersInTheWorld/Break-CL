@@ -25,6 +25,21 @@
     justify-content:center
     
 
+}
 
+.NavOption:hover {
+    color: rgb(250, 237, 39);
+    font-family: 'Kanit';
+    font-style: bold;
+    border-style: solid;
+    border-color:rgb(250, 237, 39);
+    text-decoration: underline;
+    text-decoration-color:rgb(250, 237, 39);
+    cursor: pointer;
+    
 
 }
+
+
+
+
