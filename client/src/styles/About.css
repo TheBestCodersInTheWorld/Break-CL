@@ -33,8 +33,21 @@
   }
   
   .LogoAboutContainer {
-    background-color: yellow;
+    background-color: black;
 
     height: 500px;
+
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    
+
+    
+
+  }
+  .teamLogo {
+
+    height: 300px;
+    width: 300px;
 
   }
