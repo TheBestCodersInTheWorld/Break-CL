@@ -47,6 +47,52 @@
     background-color: black;
 }
 
+.TextCell {
+    color: white;
+    background-color: black;
+    height:50px;
+    width:250px;
+    border-style: solid;
+    border-color:rgb(30,144,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.NumberCell {
+    color: white;
+    background-color: black;
+    height:50px;
+    width: 250px;
+
+    border-style: solid;
+    border-color:rgb(30,144,255);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
 
+}
+
+.RankingCell {
+
+    background-color: black;;
+    width: 50px;
+    color: white;
+    border-style: solid;
+    border-color:rgb(30,144,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TableEntry {
+    display: flex;
+    flex-direction:row;
+    /* justify-content:start; */
+
+}
