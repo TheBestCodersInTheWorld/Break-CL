@@ -5,13 +5,12 @@ const StandingsTableEntry = (props) => {
   return (
     <div className="TableEntry">
 
-        <div className="RankingCell">Ranking</div>
-        <div className="TextCell">Team</div>
-        
-        <div className="NumberCell">Games Played</div>
-        <div className="NumberCell">Goals</div>
-        <div className="NumberCell">Ended in Goal</div>
-        <div className="NumberCell">Points</div>
+        <div className="RankingCell">{props.ranking}</div>
+        <div className="TextCell">{props.team}</div>
+        <div className="NumberCell">{props.gamesPlayed}</div>
+        <div className="NumberCell">{props.goals}</div>
+        <div className="NumberCell">{props.endInGoal}</div>
+        <div className="NumberCell">{props.points}</div>
 
 
     </div>
