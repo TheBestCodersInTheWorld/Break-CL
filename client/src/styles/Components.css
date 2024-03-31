@@ -96,3 +96,49 @@
     /* justify-content:start; */
 
 }
+
+.RosterBlockContainer {
+
+    background-color: white;
+    height: 100px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+.RosterImage {
+
+    width: 95px;
+    height: 95px;
+
+}
+
+.RosterButton {
+    
+    border-style: solid;
+    border-color:rgb(25, 25, 212);
+    height: 50px;
+    width: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.RosterButton:hover {
+    color: rgb(90, 89, 85);
+    background-color: rgb(224, 221, 221);
+    font-family: 'Kanit';
+    font-style: bold;
+    border-style: solid;
+    border-color:rgb(90, 89, 85);
+    /* text-decoration: underline; */
+    text-decoration-color:rgb(90, 89, 85);
+    cursor: pointer;
+    
+
+}
+
+
+
